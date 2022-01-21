@@ -16,6 +16,97 @@ export default function Home() {
           url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
         </style>
       </Head>
+
+      <div className="flex flex-col items-center mb-24">
+        <div className="flex flex-col w-[1136px]">
+          <div class="flex flex-row justify-between">
+            <div class="basis-1/2">
+              <img src="/assets/Rectangle.png" />
+            </div>
+            <div class="basis-1/2 order-last">
+              <img src="/assets/GS_logo_Black.png" />
+              <p className="text-primary_orange-0 text-4xl font-extrabold mb-10">
+                <span className="text-black text-4xl font-extrabold">
+                  About
+                  <br />
+                  GirlScript &nbsp;
+                </span>
+                Summer of Code
+              </p>
+              <p className="font-serif text-1xl text-black-100">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                pulvinar malesuada tortor orci nullam rhoncus et. Purus, massa
+                orci aliquet neque. Nulla urna viverra tempus nullam commodo.
+                Fringilla turpis sit laoreet pellentesque sit. Ultrices
+                consequat tempor nisi, tincidunt tortor, elit pharetra, nulla.
+                Enim a quam tortor, sodales. Vitae placerat egestas pellentesque
+                senectus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center mb-24">
+        <div className="flex flex-col w-[1136px]">
+          <div class="flex flex-row justify-between">
+            <div class="basis-1/2">
+              <img src="/assets/GSSoC_logo_Black.png" />
+              <p className="text-primary_orange-0 text-4xl font-extrabold mb-10">
+                <span className="text-black text-4xl font-extrabold">
+                  About
+                  <br />
+                  GirlScript &nbsp;
+                </span>
+                Summer of Code
+              </p>
+              <p className="font-serif text-1xl text-black-100">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                sit tortor aliquet mauris. Sodales odio vitae morbi nulla sit
+                turpis sem at. Nibh in consectetur aliquam in ante pulvinar
+                vehicula sed.
+              </p>
+            </div>
+            <div class="basis-1/2 order-last">
+              <div className="bg-primary_orange-0 px-4 py-4 rounded mr-3">
+                <div class="grid grid-rows-3 grid-flow-col gap-3">
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    18k+
+                    <br />
+                    Registrations
+                  </div>
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    135+
+                    <br />
+                    Institutes
+                  </div>
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    112
+                    <br />
+                    Countries
+                  </div>
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    40M+
+                    <br />
+                    Lines of Code
+                  </div>
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    40M+
+                    <br />
+                    Pull Requests
+                  </div>
+                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                    17k+
+                    <br />
+                    Mentors
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Vishwa - https://github.com/GSSoC-Web/gssoc-website/projects/1#card-76402159 */}
       <div className="flex flex-col items-center mb-24">
         <div className="flex flex-col w-[1136px]">
@@ -59,17 +150,6 @@ export default function Home() {
         </div>
       </div>
       {/* 
-
-
-
-
-
-
-
-
-
-
-
 
 
 */}
