@@ -18,7 +18,7 @@ export default function Home() {
         </style>
       </Head>
 
-      <div classname=" items-center justify-center">
+      <div classname=" items-center justify-center mb-24">
               <p className="font-serif text-center text-2xl font-extrabold text-black-100">
               <p className="text-primary_orange-0 text-5xl text center font-extrabold mb-10">
                 Projects 2021
@@ -27,7 +27,159 @@ export default function Home() {
               </p> 
       </div>
 
-
+    <div className="flex mb-24 grid grid-cols-3 gap-3">
+    <div className="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
       </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
+        <p className="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
+      </div>
+    </div>
+  </div>
+
+  
+  </div>
+
+  
+  <div classname=" items-center justify-center">
+              <p className="font-serif text-center text-2xl font-extrabold text-black-100">
+              <p className="text-primary_orange-0 text-4xl text-center font-extrabold mb-10">
+                Checkout some previous year Projects
+            </p>
+            </p>
+      </div>
+
+      <div className="flex justify-center mx-6">
+        <button
+          className={"bg-orange-500 p-4 text-white rounded hover:bg-orange-700 hover:shadow-xl mx-4"}
+          onClick={() => {
+            setEffect(true);
+          }}
+          onAnimationEnd={() => setEffect(false)}
+        >
+          Project 2020
+        </button>
+
+        <button
+          className={"bg-orange-500 p-4 text-white rounded hover:bg-orange-700 hover:shadow-xl mx-4"}
+          onClick={() => {
+            setEffect(true);
+          }}
+          onAnimationEnd={() => setEffect(false)}
+        >
+          Project 2020
+        </button>
+
+        <button
+          className={"bg-orange-500 p-4 text-white rounded hover:bg-orange-700 hover:shadow-xl mx-4"}
+          onClick={() => {
+            setEffect(true);
+          }}
+          onAnimationEnd={() => setEffect(false)}
+        >
+          Project 2019
+        </button>
+
+        <button
+          className={"bg-orange-500 p-4 text-white rounded hover:bg-orange-700 hover:shadow-xl mx-4"}
+          onClick={() => {
+            setEffect(true);
+          }}
+          onAnimationEnd={() => setEffect(false)}
+        >
+          Project 2018
+        </button>
+      </div>
+    </div>
+      
   );
 }
