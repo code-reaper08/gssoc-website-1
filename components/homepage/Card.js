@@ -7,7 +7,7 @@ function Cards(props) {
       <p className="text-white font-normal text-justify font-serif ">
         {props.content}
       </p>
-      <button className="bg-orange-500 font-bold font-serif w-full px-5 py-2 rounded text-gray-800">
+      <button className="bg-orange-500 font-bold font-serif w-full px-5 py-2 rounded text-white">
         {props.buttontext}
       </button>
     </div>

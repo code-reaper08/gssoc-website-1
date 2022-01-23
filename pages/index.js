@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Card from "../components/homepage/Card";
 import Navbar from "../components/Navbar";
+import Schedule from "../components/homepage/Schedule";
 export default function Home() {
   return (
     <div>
@@ -121,7 +122,7 @@ export default function Home() {
             </div> */}
           </div>
         </div>
-
+  
         <div className="organisation mb-24">
           <p className="font-serif font-semibold text-gray-800 text-4xl 2.25rem 3rem">
             Some of the{" "}
@@ -132,22 +133,22 @@ export default function Home() {
           <div className="org__box flex flex-row items-center flex-wrap">
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo1.png?raw=true"
               alt="logo"
             />
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo2.png?raw=true"
               alt="logo"
             />
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo3.png?raw=true"
               alt="logo"
             />
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo4.png?raw=true"
               alt="logo"
             />
             <div>
@@ -157,7 +158,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="be-part-of mb-24">
           <p className="font-serif font-semibold text-justify text-gray-800 text-4xl 2.25rem 3rem ">
             <span className="text-primary_orange-0 text-4xl 2.25rem 3rem">
@@ -195,6 +195,93 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* sponsors */}
+      <div className="sponsors__container flex flex-row justify-center">
+        <div className="sponsors__wrapper flex flex-col w-[1136px] mt-[93px]">
+          <div className="sponsors__header mb-9">
+            <p className="font-serif font-semibold text-gray-800 text-4xl leading-10">
+              Our Sponsors
+            </p>
+          </div>
+          {/* sponsors card container */}
+          <div className="sponsors__card__container flex flex-row justify-between">
+            {/* card1 */}
+            <div className="sponsor__card__wrapper w-[368px] h-[228px] px-9 py-9 shadow-xl rounded">
+              <p className="text-[#ff7a19] font-serif font-semibold text-3xl mb-9">
+                Gold Sponsor
+              </p>
+              <img
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/do_blue.svg"
+                alt="logo"
+              />
+            </div>
+            {/* card2 */}
+            <div className="sponsor__card__wrapper w-[368px] h-[228px] px-9 py-9 shadow-xl rounded">
+              <p className="text-[#ff7a19] font-serif font-semibold text-3xl  mb-9">
+                Silver Sponsor
+              </p>
+              <img
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/linode.svg"
+                alt="logo"
+              />
+            </div>
+            {/* card3 */}
+            <div className="sponsor__card__wrapper w-[368px] h-[228px] px-9 py-9 shadow-xl rounded">
+              <p className="text-[#ff7a19] font-serif font-semibold text-3xl  mb-9">
+                Bronze Sponsor
+              </p>
+              <img
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/honeybadger.svg"
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="other__sponsors px-9 py-9 shadow-xl rounded mt-9">
+            <div className="other__sponsors__title">
+              <p className="text-[#ff7a19] font-serif font-semibold text-3xl  mb-9">
+                Other Sponsors
+              </p>
+            </div>
+            {/* row 1 */}
+            <div className="sponsors__row__one flex flex-row mb-9">
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/taskade-logo.png"
+                alt="logo"
+              />
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/sticker-mule.png"
+                alt="logo"
+              />
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/xyz-logo-color.png"
+                alt="logo"
+              />
+            </div>
+            <div className="sponsors__row__two flex flex-row">
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/sketch-logo-light.png"
+                alt="logo"
+              />
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/egghead_logo.png"
+                alt="logo"
+              />
+              <img
+                className="h-12 mr-14"
+                src="https://gssoc.girlscript.tech/images/sponsor/2021/ORM_logo_red_rgb.png"
+                alt="logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Schedule */}
+      <Schedule />
     </div>
   );
 }
