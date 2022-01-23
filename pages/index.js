@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Card from "../components/homepage/Card";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div>
@@ -111,7 +111,7 @@ export default function Home() {
       {/* Vishwa - https://github.com/GSSoC-Web/gssoc-website/projects/1#card-76402159 */}
       <div className="flex flex-col items-center mb-24">
         <div className="flex flex-col w-[1136px]">
-          <p className="text-gray-200 text-5xl font-extrabold mb-10">
+          <p className="text-gray-800 text-5xl font-extrabold mb-10">
             Some of the{" "}
             <span className="text-primary_orange-0 text-5xl font-extrabold">
               participating Organisations!
@@ -121,29 +121,29 @@ export default function Home() {
             {/* org1 */}
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo1.png?raw=true"
               alt="logo"
             />
             {/* org2 */}
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo2.png?raw=true"
               alt="logo"
             />
             {/* org3 */}
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo3.png?raw=true"
               alt="logo"
             />
             {/* org4 */}
             <img
               className="w-20 h-auto mr-12"
-              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              src="https://github.com/GSSoC-Web/gssoc-assets/blob/main/Participating_projects/logo4.png?raw=true"
               alt="logo"
             />
             <div>
-              <p className="font-serif font-semibold text-3xl text-gray-200">
+              <p className="font-serif font-semibold text-3xl text-gray-800">
                 and more...
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
       <div className="main__wrapper flex flex-col items-center">
         {/* Be a part of GSSoC */}
         <div className="flex flex-col w-[1136px]">
-          <p className="text-gray-200 text-5xl font-extrabold mb-10">
+          <p className="text-gray-800 text-5xl font-extrabold mb-10">
             <span className="text-primary_orange-0 text-5xl font-extrabold">
               Be a part of &nbsp;
             </span>
