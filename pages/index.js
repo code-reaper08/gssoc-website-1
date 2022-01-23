@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Card from "../components/homepage/Card";
 import Navbar from "../components/Navbar";
+import Schedule from "../components/homepage/Schedule";
 export default function Home() {
   return (
     <div>
@@ -278,6 +279,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Schedule */}
+      <Schedule />
     </div>
   );
 }
