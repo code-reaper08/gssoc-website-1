@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Card from "../components/homepage/Card";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div>
@@ -17,6 +17,30 @@ export default function Home() {
           url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
         </style>
       </Head>
+
+      <div className="flex flex-col items-center mb-24">
+        <div className="flex flex-col w-[1136px]">
+          <div className="flex flex-row justify-between">
+            <div className="basis-1/2">
+              <p className="text-black text-4xl font-extrabold mb-10">
+                <span className="text-primary_orange-0 text-4xl font-extrabold">
+                  GSSoC{" "}
+                </span>
+                2022
+                <br />
+                is here! &nbsp;
+              </p>
+              <p className="font-serif text-2xl text-black-100">
+                GirlScript Summer of Code is a 3-month long
+                <span className="text-primary_orange-0 text-2xl">
+                &nbsp; #OpenSource &nbsp;
+                </span>
+                program by GirlScript Foundation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col items-center mb-24">
         <div className="flex flex-col w-[1136px]">
