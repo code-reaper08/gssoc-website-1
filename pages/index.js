@@ -20,11 +20,11 @@ export default function Home() {
 
       <div className="flex flex-col items-center mb-24">
         <div className="flex flex-col w-[1136px]">
-          <div class="flex flex-row justify-between">
-            <div class="basis-1/2">
+          <div className="flex flex-row justify-between">
+            <div className="basis-1/2">
               <img src="/assets/Rectangle.png" />
             </div>
-            <div class="basis-1/2 order-last">
+            <div className="basis-1/2 order-last">
               <img src="/assets/GS_logo_Black.png" />
               <p className="text-primary_orange-0 text-4xl font-extrabold mb-10">
                 <span className="text-black text-4xl font-extrabold">
@@ -50,8 +50,8 @@ export default function Home() {
 
       <div className="flex flex-col items-center mb-24">
         <div className="flex flex-col w-[1136px]">
-          <div class="flex flex-row justify-between">
-            <div class="basis-1/2">
+          <div className="flex flex-row justify-between">
+            <div className="basis-1/2">
               <img src="/assets/GSSoC_logo_Black.png" />
               <p className="text-primary_orange-0 text-4xl font-extrabold mb-10">
                 <span className="text-black text-4xl font-extrabold">
@@ -68,35 +68,35 @@ export default function Home() {
                 vehicula sed.
               </p>
             </div>
-            <div class="basis-1/2 order-last">
+            <div className="basis-1/2 order-last">
               <div className="bg-primary_orange-0 px-4 py-4 rounded mr-3">
-                <div class="grid grid-rows-3 grid-flow-col gap-3">
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                <div className="grid grid-rows-3 grid-flow-col gap-3">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     18k+
                     <br />
                     Registrations
                   </div>
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     135+
                     <br />
                     Institutes
                   </div>
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     112
                     <br />
                     Countries
                   </div>
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     40M+
                     <br />
                     Lines of Code
                   </div>
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     40M+
                     <br />
                     Pull Requests
                   </div>
-                  <div class="text-gray-200 text-3xl font-bold mb-2">
+                  <div className="text-gray-200 text-3xl font-bold mb-2">
                     17k+
                     <br />
                     Mentors
