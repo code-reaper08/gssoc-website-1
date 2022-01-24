@@ -44,15 +44,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-between mb-24">
-          <div className="basis-1/2">
-            <img src="/assets/Rectangle.png" />
-          </div>
+        <div className="flex justify-between flex-wrap  mb-24">
+            <img className="" src="/assets/Rectangle.png" />
           <div className="basis-1/2 order-last">
             <img src="/assets/GS_logo_Black.png" />
             <p className="text-black font-semibold text-4xl 2.25rem 3rem mb-5">
-              About &nbsp;
-              <span className="text-primary_orange-0">GirlScript &nbsp;</span>
+              About {" "}
+              <span className="text-primary_orange-0">GirlScript {" "}</span>
               Foundation
             </p>
             <p className="font-serif text-1xl text-black-100">
@@ -73,7 +71,7 @@ export default function Home() {
               <span className="text-black text-4xl 2.25rem 3rem">
                 About
                 <br />
-                GirlScript &nbsp;
+                GirlScript {" "}
               </span>
               Summer of Code
             </p>
@@ -124,7 +122,7 @@ export default function Home() {
         <div className="be-part-of mb-24">
           <p className="font-serif font-semibold text-justify text-gray-800 text-4xl 2.25rem 3rem ">
             <span className="text-primary_orange-0 text-4xl 2.25rem 3rem">
-              Be a part of &nbsp;
+              Be a part of {" "}
             </span>
             GSSoC 2022!
           </p>
