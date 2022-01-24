@@ -1,31 +1,22 @@
-import Link from "next/link";
+import React, { useState } from 'react';
+import {accordionData} from './api/data'
+import MyAccordion from './MyAccordion';
 
-export const getStaticProps = async() => {
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const data = await res.json();
-    
-    return{
-        props:{
-            data,
-        },
-    };
+const faq = () => {
+  const [data, setData] = useState(accordionData);
+  return (
+    <>
+    <section >
+    <h1 className="flex flex-col items-center justify-center text-orange-500 text-5xl font-bold">Frequently Asked Questions</h1>
+    {
+       data.map((curElem) => {
+         const { id } = curElem;
+         return <MyAccordion key={ id} { ...curElem }/>
+       })
+     }
+     </section>
+    </>
+  );
 };
 
-const Faq = ({data}) => {
-    
-    return(
-      <>
-        <h1 className="text-primary_orange-0 text-4xl font-extrabold mb-10 ml-80">Freequently asked questions(FAQs)</h1>
-        {data.slice(0,6).map((curElem) => {
-            return <div key={curElem.id} className="ssr-styles">
-                <h3>{curElem.id}</h3>
-                <Link href={`${curElem.id}`}>
-                  <h2>{curElem.title}</h2>
-                </Link>
-            </div>
-        })}
-      </> 
-    );
-};
-
-export default Faq;
+export default faq;
