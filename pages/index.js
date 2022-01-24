@@ -18,7 +18,7 @@ export default function Home() {
         </style>
       </Head>
 
-      <div className="container mx-auto my-12 mx-auto px-4 md:px-12">
+      <div className="container mx-auto my-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
         <div className="first-section mb-10">
           <div className="basis-1/2">
             <p className="text-black font-semibold text-4xl 2.25rem 3rem mb-10">
@@ -66,8 +66,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-between  mb-24">
-          <div className="basis-1/2">
+        <div className="flex justify-between flex-wrap  mb-24">
+          <div className="w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
             <img src="/assets/GSSoC_logo_Black.png" />
             <p className="text-primary_orange-0 font-semibold text-4xl 2.25rem 3rem mb-10">
               <span className="text-black text-4xl 2.25rem 3rem">
@@ -83,46 +83,11 @@ export default function Home() {
               sem at. Nibh in consectetur aliquam in ante pulvinar vehicula sed.
             </p>
           </div>
-          <div className="basis-1/2 order-last">
-            {/* <div className="bg-primary_orange-0 px-4 py-4 rounded mr-3">
-              <div className="grid grid-rows-3 grid-flow-col gap-3">
-                <div className="text-gray-200 text-3xl font-bold ">
-                  18k+
-                  <br />
-                  Registrations
-                </div>
-                <div className="text-gray-200 text-3xl font-bold ">
-                  135+
-                  <br />
-                  Institutes
-                </div>
-                <div className="text-gray-200 text-3xl font-bold ">
-                  112
-                  <br />
-                  Countries
-                </div>
-                <div className="text-gray-200 text-3xl font-bold ">
-                  40M+
-                  <br />
-                  Lines of Code
-                </div>
-                <div className="text-gray-200 text-3xl font-bold ">
-                  40M+
-                  <br />
-                  Pull Requests
-                </div>
-                <div className="text-gray-200 text-3xl font-bold ">
-                  17k+
-                  <br />
-                  Mentors
-                </div>
-              </div>
-            </div> */}
-          </div>
+          <img src="/assets/Frame.png" />
         </div>
 
         <div className="organisation mb-24">
-          <p className="font-serif font-semibold text-gray-800 text-4xl 2.25rem 3rem">
+          <p className="font-serif font-semibold text-gray-800 text-4xl 2.25rem 3rem mb-8">
             Some of the{" "}
             <span className="text-primary_orange-0 text-4xl 2.25rem 3rem">
               participating organisations!
@@ -169,7 +134,9 @@ export default function Home() {
               <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
                 <article className="overflow-hidden rounded-lg">
                   <header className="flex items-center p-2 md:p-4">
-                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Participate in GSSoC 2021</h1>
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">
+                      Participate in GSSoC 2021
+                    </h1>
                   </header>
                   <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -188,7 +155,9 @@ export default function Home() {
               <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
                 <article className="overflow-hidden rounded-lg">
                   <header className="flex items-center p-2 md:p-4">
-                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Be a Mentor</h1>
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">
+                      Be a Mentor
+                    </h1>
                   </header>
                   <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -211,7 +180,9 @@ export default function Home() {
               <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
                 <article className="overflow-hidden rounded-lg">
                   <header className="flex items-center p-2 md:p-4">
-                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Calling all NGOs</h1>
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">
+                      Calling all NGOs
+                    </h1>
                   </header>
                   <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -230,7 +201,9 @@ export default function Home() {
               <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
                 <article className="overflow-hidden rounded-lg">
                   <header className="flex items-center p-2 md:p-4">
-                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Be a Sponsor</h1>
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">
+                      Be a Sponsor
+                    </h1>
                   </header>
                   <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

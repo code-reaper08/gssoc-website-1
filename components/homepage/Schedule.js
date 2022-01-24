@@ -3,8 +3,8 @@ import React from "react";
 function Schedule() {
   return (
     <div>
-      <div className="schedule__container flex flex-row justify-center mt-20">
-        <div className="schedule__wrapper w-[1136px]">
+      <div className="schedule__container container mx-auto my-12 p-8 sm:px-10 md:px-12 lg:px-40 2xl:px-50">
+        <div className="schedule__wrapper">
           <div className="schedule mb-14">
             <p className="font-serif font-semibold text-4xl leading-10 text-gray-800 pl-5">
               <span className="font-serif font-semibold text-4xl leading-10 text-[#FF7A19]">
