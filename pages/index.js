@@ -18,7 +18,7 @@ export default function Home() {
         </style>
       </Head>
 
-      <div className="container mx-auto">
+      <div className="container mx-auto my-12 mx-auto px-4 md:px-12">
         <div className="first-section mb-10">
           <div className="basis-1/2">
             <p className="text-black font-semibold text-4xl 2.25rem 3rem mb-10">
@@ -29,10 +29,8 @@ export default function Home() {
             </p>
             <p className="font-serif font-medium text-2xl 1.5rem 2rem text-gray-800 mb-10">
               GirlScript Summer of Code is a 3-month long
-              <br/>
-              <span className="text-primary_orange-0">
-                #OpenSource &nbsp;
-              </span>
+              <br />
+              <span className="text-primary_orange-0">#OpenSource &nbsp;</span>
               program by GirlScript Foundation.
             </p>
             <div className="flex">
@@ -44,7 +42,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          </div>
+        </div>
 
         <div className="flex flex-row justify-between mb-24">
           <div className="basis-1/2">
@@ -122,7 +120,7 @@ export default function Home() {
             </div> */}
           </div>
         </div>
-  
+
         <div className="organisation mb-24">
           <p className="font-serif font-semibold text-gray-800 text-4xl 2.25rem 3rem">
             Some of the{" "}
@@ -165,32 +163,88 @@ export default function Home() {
             </span>
             GSSoC 2022!
           </p>
-          <div className="flex justify-between flex-wrap  ">
-            {/* flexbox 1 */}
-            <div className="flex justify-between flex-wrap ">
-              <Card
-                title="Participate in GSSoC 2022"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam"
-                buttontext="Register"
-              />
-              <Card
-                title="Be a Mentor"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam"
-                buttontext="Register"
-              />
+          <div className="container my-12 mx-auto ">
+            <div className="flex flex-wrap justify-between -mx-1 lg:-mx-4">
+              {/* Card-1 */}
+              <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
+                <article className="overflow-hidden rounded-lg">
+                  <header className="flex items-center p-2 md:p-4">
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Participate in GSSoC 2021</h1>
+                  </header>
+                  <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Tincidunt sed lectus non magna enim dignissim amet semper.
+                    Quisque nisl sed ipsum in id sit volutpat pulvinar. Tortor
+                    placerat tincidunt enim posuere hendrerit aliquet amet quis.
+                  </p>
+                  <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                    <button className="bg-primary_orange-0 text-white w-full font-bold py-3 px-5 rounded">
+                      Register
+                    </button>
+                  </footer>
+                </article>
+              </div>
+              {/* Card-2 */}
+              <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
+                <article className="overflow-hidden rounded-lg">
+                  <header className="flex items-center p-2 md:p-4">
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Be a Mentor</h1>
+                  </header>
+                  <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Tincidunt sed lectus non magna enim dignissim amet semper.
+                    Quisque nisl sed ipsum in id sit volutpat pulvinar. Tortor
+                    placerat tincidunt enim posuere hendrerit aliquet amet quis.
+                  </p>
+                  <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                    <button className="bg-primary_orange-0 text-white w-full font-bold py-3 px-5 rounded">
+                      Register
+                    </button>
+                  </footer>
+                </article>
+              </div>
             </div>
-            {/* flexbox 2 */}
-            <div className="flex justify-between flex-wrap ">
-              <Card
-                title="Submit your project"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam."
-                buttontext="Know More"
-              />
-              <Card
-                title="Be a Sponsor"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae libero cumque impedit molestias sequi voluptas delectus laborum, ex quam."
-                buttontext="Know More"
-              />
+          </div>
+          <div className="container my-12 mx-auto ">
+            <div className="flex flex-wrap justify-between -mx-1 lg:-mx-4">
+              {/* Card-3 */}
+              <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
+                <article className="overflow-hidden rounded-lg">
+                  <header className="flex items-center p-2 md:p-4">
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Calling all NGOs</h1>
+                  </header>
+                  <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Tincidunt sed lectus non magna enim dignissim amet semper.
+                    Quisque nisl sed ipsum in id sit volutpat pulvinar. Tortor
+                    placerat tincidunt enim posuere hendrerit aliquet amet quis.
+                  </p>
+                  <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                    <button className="bg-primary_orange-0 text-white w-full font-bold py-3 px-5 rounded">
+                      Submit your project
+                    </button>
+                  </footer>
+                </article>
+              </div>
+              {/* Card-4 */}
+              <div className="bg-gray-300 h-fit	 my-1 px-1 w-560px md:w-1/2 lg:my-4 lg:px-4 lg:w-2/5">
+                <article className="overflow-hidden rounded-lg">
+                  <header className="flex items-center p-2 md:p-4">
+                    <h1 className="font-semibold text-3xl 1.875 rem 2.25 rem">Be a Sponsor</h1>
+                  </header>
+                  <p className="text-grey-darker font-normal text-xl 1.25rem 1.75rem p-2 md:p-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Tincidunt sed lectus non magna enim dignissim amet semper.
+                    Quisque nisl sed ipsum in id sit volutpat pulvinar. Tortor
+                    placerat tincidunt enim posuere hendrerit aliquet amet quis.
+                  </p>
+                  <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                    <button className="bg-primary_orange-0 text-white w-full font-bold py-3 px-5 rounded">
+                      Know More
+                    </button>
+                  </footer>
+                </article>
+              </div>
             </div>
           </div>
         </div>
