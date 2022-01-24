@@ -187,9 +187,9 @@ export default function Modal() {
       <div className="px-6 py-4">
         <div className="relative ">
         <button
-        className="absolute inset-y-0 top-0 right-0 text-center bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
         type="button"
-        onClick={() => setShowModal(true)}>Open</button>
+        onClick={() => setShowModal(true)}>explore</button>
     </div>
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
@@ -208,6 +208,12 @@ export default function Modal() {
   <div class="p-10 ">  
     <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
       <div className="px-6 py-4">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
@@ -225,6 +231,12 @@ export default function Modal() {
   <div class="p-10 ">  
     <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
       <div className="px-6 py-4">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
@@ -241,6 +253,12 @@ export default function Modal() {
   <div class="p-10 ">  
     <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
       <div className="px-6 py-4">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
@@ -254,15 +272,27 @@ export default function Modal() {
     </div>
   </div>
 
-  <div class="p-10 ">  
+  <div class="p-10 ">
     <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
       <div className="px-6 py-4">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>  
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
         <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">photography</span>
         <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">travel</span>
         <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">winter</span>
@@ -273,6 +303,12 @@ export default function Modal() {
   <div class="p-10 ">  
     <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
       <div className="px-6 py-4">
+      <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
         <div className="font-bold text-xl mb-2 text-primary_orange-0">Manthan</div>
         <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
