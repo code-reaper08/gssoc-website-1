@@ -6,9 +6,11 @@ import styles from "../styles/Home.module.css";
 import Card from "../components/homepage/Card";
 import Navbar from "../components/Navbar"
 import { Icon, InlineIcon } from "@iconify/react";
-
+import Data from "../components/Data"
+import useState from 'react';
 
 export default function Modal() {
+  const [searchTerm,setSearchTerm]= React.useState('');
   const [showModal, setShowModal] = React.useState(false);
 
   return (
@@ -36,7 +38,10 @@ export default function Modal() {
               <div class="flex items-center justify-center">
 
     <div className="flex border-2 rounded mb-24 border-orange-400">
-        <input type="text" className="px-4 py-2 w-80" placeholder="Search..." />
+        <input type="text"
+         className="px-4 py-2 w-80" 
+         placeholder="Search..."
+        />
         <button className="flex border-orange-400 items-center justify-center px-4 border-l">
             <svg className="border-orange-400 w-8 h-8 text-orange-600" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24">
@@ -47,6 +52,38 @@ export default function Modal() {
     </div>
 </div>
 </div>
+
+<div className="post">
+  {Data.map(post=> {
+  return (
+    <div key={post.project_id} className="post">
+
+      
+<div className="p-10 ">  
+    <div className="max-w-sm rounded overflow-hidden shadow-xl shadow-orange-300">
+      <div className="px-6 py-4">
+        <div className="relative ">
+        <button
+        className="absolute inset-y-0 top-0 right-0 text-center pb-5 bg-orange-400 text-white active:bg-orange-600 font-bold uppercase text-sm px-2 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none m-1 mb-6 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}>explore</button>
+    </div>
+        <div className="font-bold text-xl mb-6 text-primary_orange-0">{post.owner_name}</div>
+        <p className="text-gray-700 text-base mt-2">
+          {post.project_description}  </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <span className="inline-block bg-orange-400 rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">{post.technology_used}</span>
+
+      </div>
+    </div>
+  </div>
+    </div>
+  )
+
+})}
+</div>
+
 
 {/*modal */}
 {/*
